@@ -157,9 +157,12 @@ class Signal2020Command extends TwilioClientCommand {
   }
 }
 
+const baseFlags = { ...TwilioClientCommand.flags };
+baseFlags.profile.description = 'Shorthand identifier for your twilio-cli profile; run \'$ twilio profiles:list\' for more info.';
+
 Signal2020Command.flags = Object.assign(
   // ChatTokenGeneratorFlags,
-  TwilioClientCommand.flags,
+  baseFlags,
   {
     diagnostics: flags.boolean({
       char: 'd',
@@ -168,10 +171,10 @@ Signal2020Command.flags = Object.assign(
         'Using this flag will output diagnostics information that will be useful when debugging issues.',
     }),
     email: flags.string({
-      description: 'The email you use to log into signal.twilio.com/login',
+      description: 'The email you use to log into signal.twilio.com/login.',
     }),
     password: flags.string({
-      description: 'The password you use to log into signal.twilio.com/login',
+      description: 'The password you use to log into signal.twilio.com/login.',
     }),
     feedback: flags.boolean({
       default: false,
