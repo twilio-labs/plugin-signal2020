@@ -9,8 +9,13 @@ export function UpdateNotice() {
     <Box flexDirection="column">
       <Info text="New Version" />
       <Text>
-        Please exit, run <Code>twilio plugins:update</Code> and restart
-        Developer Mode with <Code>twilio signal2020</Code>.
+        Please exit, run{' '}
+        <Code>
+          {
+            'twilio plugins:remove @twilio-labs/plugin-signal2020 && twilio plugins:install @twilio-labs/plugin-signal2020@latest'
+          }
+        </Code>{' '}
+        and restart Developer Mode with <Code>twilio signal2020</Code>.
       </Text>
     </Box>
   );
