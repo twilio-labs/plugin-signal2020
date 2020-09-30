@@ -26,10 +26,10 @@ class Signal2020Command extends TwilioClientCommand {
   async catch(error) {
     pinoFinalHandler(error, 'cliError', true);
     if (error) {
-      this.logger.info(
-        `Please check your log file for more details at: ${loggerPath}`
-      );
+      const info = this.logger ? this.logger.info : console.log;
+      info(`Please check your log file for more details at: ${loggerPath}`);
     }
+
     return super.catch(error);
   }
 
