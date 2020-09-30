@@ -14,11 +14,16 @@ It's built on top of the [Twilio CLI](https://twil.io/cli) and provides function
 ### __Table of Contents__
 
 <!-- toc -->
-* [Requirements](#requirements)
-* [Installation](#installation)
-* [Commands](#commands)
-* [Contributing](#contributing)
-* [License](#license)
+- [Requirements](#requirements)
+  - [Setup](#setup)
+  - [Supported Terminals](#supported-terminals)
+- [Installation](#installation)
+  - [Usage](#usage)
+- [Commands](#commands)
+  - [`twilio signal2020`](#twilio-signal2020)
+- [Contributing](#contributing)
+  - [Code of Conduct](#code-of-conduct)
+- [License](#license)
 <!-- tocstop -->
 # Requirements
 
@@ -65,7 +70,6 @@ SIGNAL Developer Mode relies on your keyboard for navigation. Check out the [ann
 
 
 # Commands
-<!-- commands -->
 * [`twilio signal2020`](#twilio-signal2020)
 
 ## `twilio signal2020`
@@ -96,8 +100,6 @@ ALIASES
   $ twilio signal
 ```
 
-_See code: [dist/commands/signal2020.ts](https://github.com/twilio-labs/plugin-signal2020/blob/v1.0.0/dist/commands/signal2020.ts)_
-<!-- commandsstop -->
 # Contributing
 
 This project welcomes contributions from the community. Please see the [`CONTRIBUTING.md`](docs/CONTRIBUTING.md) file for more details.
