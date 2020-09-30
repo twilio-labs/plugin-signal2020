@@ -51,7 +51,7 @@ export function useResponsiveMeasureElement(changeTriggers: any[] = []) {
   useEffect(() => {
     if (domNode) {
       const result = measureElement(domNode);
-      let { width, height } = result;
+      const { width, height } = result;
 
       if (isNaN(width) || isNaN(height)) {
         // When at first you don't succeed...
