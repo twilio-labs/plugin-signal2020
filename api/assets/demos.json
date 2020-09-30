@@ -1,0 +1,458 @@
+{
+	"demos": {
+		"code-exchange": {
+			"name": "CodeExchange",
+			"products": ["all"],
+			"description": "Get started with code samples for common Twilio use cases.",
+			"options": [],
+			"codeexchange_link": "https://www.twilio.com/code-exchange",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"basic-sms-autoresponse": {
+			"name": "Basic SMS Auto-Response",
+			"products": ["SMS"],
+			"description": "A basic Twilio Messaging TwiML template Function that will return TwiML to message \"Hello World\"",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/hello-messaging"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/basic-sms-auto-response",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/basic-sms-auto-response?language=functions",
+			"is_community": false
+		},
+		"basic-voice-autoresponse": {
+			"name": "Basic Call Auto-Response",
+			"products": ["Voice"],
+			"description": "A basic Twilio Messaging TwiML template Function that will return TwiML to say \"Hello World\"",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/hello-voice"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/basic-voice-auto-response",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/basic-voice-auto-response?language=functions",
+			"is_community": false
+		},
+		"virtual-medical-visits": {
+			"name": "Virtual Medical Visits",
+			"products": ["Video", "Chat"],
+			"description": "A telemedicine app that will enable video 1:1s, as well as guidance to build screen annotation during calls and send appointment reminders.",
+			"options": [
+				{
+					"language": "Swift",
+					"repo_link": "https://github.com/twilio/twilio-video-app-ios"
+				},
+				{
+					"language": "Android",
+					"repo_link": "https://github.com/twilio/twilio-video-app-android"
+				},
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio/twilio-video-app-react"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/virtual-medical-visits",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"virtual-classroom": {
+			"name": "Virtual Classroom",
+			"products": ["Video", "SMS"],
+			"description": "Build an app to enable robust virtual classroom time between teachers and students.",
+			"options": [
+				{
+					"language": "Java",
+					"repo_link": "https://github.com/twilio/twilio-video-app-android"
+				},
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio/twilio-video-app-react"
+				},
+				{
+					"language": "Swift",
+					"repo_link": "https://github.com/twilio/twilio-video-app-ios"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/virtual-classroom",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"flex-auto-responses": {
+			"name": "Auto-Responses",
+			"products": ["Flex"],
+			"description": "Enable auto response for your agents and enable them to use canned responses in your Flex call center.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/plugin-agent-autoresponse"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/preset-and-auto-responses-flex",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"sms-support-chatbot": {
+			"name": "SMS Support Chatbot using Autopilot",
+			"products": ["Autopilot", "SMS"],
+			"description": "Uses AI to interpret a user's incoming texts, and responds accordingly with the correct support.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/sample-autopilot-support-bot"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/sms-support-chatbot-using-autopilot",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"sms-notifications": {
+			"name": "SMS Notifications",
+			"products": ["SMS"],
+			"description": "Automate a workflow through an example that mimics a vacation rental website where a host can notify guests of a reservation via text message.",
+			"options": [
+				{
+					"language": ".NET",
+					"repo_link": "https://github.com/TwilioDevEd/airtng-csharp"
+				},
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/TwilioDevEd/airtng-node"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/sms-notifications",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"connect-volunteers": {
+			"name": "Connect Volunteers through SMS",
+			"products": ["WhatsApp", "SMS"],
+			"description": "Application built to connect volunteers during COVID-19 through SMS & WhatsApp Bot.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/quarantineaid/quarantineaid-backend"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/connect-volunteers-through-sms",
+			"quick_deploy_link": null,
+			"is_community": true
+		},
+		"code-exchange-covid": {
+			"name": "CodeExchange COVID-19 Response Samples",
+			"products": ["all"],
+			"description": "Get started with code samples for common Twilio & COVID-19 use cases.",
+			"options": [],
+			"codeexchange_link": "https://www.twilio.com/code-exchange?q=covid",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"sourdio": {
+			"name": "IoT Monitoring for Sourdough Starter",
+			"products": ["IoT"],
+			"description": "Uses Twilio's Narrowband IoT Developer Kit to provide data monitoring of your sourdough starter's temperature, humidity, and rise.",
+			"options": [
+				{
+					"language": "C++",
+					"repo_link": "https://github.com/twilio/sourd.io"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/iot-monitoring-sourdough-starter",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"code-exchange-video": {
+			"name": "CodeExchange Video Samples",
+			"products": ["Video"],
+			"description": "Get started with code samples for common Twilio Video use cases.",
+			"options": [],
+			"codeexchange_link": "https://www.twilio.com/code-exchange?q=&f=video",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"code-exchange-flex": {
+			"name": "CodeExchange Flex Samples",
+			"products": ["Flex"],
+			"description": "Get started with code samples for common Twilio Flex use cases.",
+			"options": [],
+			"codeexchange_link": "https://www.twilio.com/code-exchange?q=&f=flex",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"ai-chatbot": {
+			"name": "Informational AI Chatbot",
+			"products": ["Autopilot"],
+			"description": "Chatbot that uses Autopilot AI to provide custom information to users about COVID-19 pandemic. Customize based on data relevant to your users.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/codeAdrian/homeBound"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/informational-ai-chatbot",
+			"quick_deploy_link": null,
+			"is_community": true
+		},
+		"contactless-payment": {
+			"name": "Contactless Mobile Payment SMS via Stripe",
+			"products": ["SMS"],
+			"description": "Send payment links to people via SMS using Stripe",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/stripe-payment-link-sms"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/mobile-payment-sms-stripe",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/mobile-payment-sms-stripe?language=functions",
+			"is_community": true
+		},
+		"appointment-reminders": {
+			"name": "Appointment Reminders via SMS",
+			"products": ["SMS"],
+			"description": "Remind your customers of upcoming appointments using text messages",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/sample-appointment-reminders-node"
+				},
+				{
+					"language": "Python",
+					"repo_link": "https://github.com/TwilioDevEd/appointment-reminders-django#next"
+				},
+				{
+					"language": "Java",
+					"repo_link": "https://github.com/TwilioDevEd/appointment-reminders-java#next"
+				},
+				{
+					"language": "PHP",
+					"repo_link": "https://github.com/TwilioDevEd/appointment-reminders-laravel#next"
+				},
+				{
+					"language": "Ruby",
+					"repo_link": "https://github.com/TwilioDevEd/appointment-reminders-rails#next"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/appointment-reminders-sms",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"whatsapp-sessions": {
+			"name": "WhatsApp Bot with Session Management & Group Messages",
+			"products": ["WhatsApp"],
+			"description": "Maintain state in WhatsApp bot conversations and relay messages from others",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/VladimirMikulic/sms-gaming"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/whatsapp-session-bot",
+			"quick_deploy_link": null,
+			"is_community": true
+		},
+		"video-collab-education": {
+			"name": "Virtual Collaboration and Education",
+			"products": ["WhatsApp"],
+			"description": "Web application that shares content from a host's computer to one or more remote users over the internet. Includes whiteboarding, screen sharing, chat, and annotation.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/Godwin9911/stream-my-pc"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/virtual-collaboration-and-education",
+			"quick_deploy_link": null,
+			"is_community": true
+		},
+		"video-collab": {
+			"name": "Video Collaboration",
+			"products": ["Video"],
+			"description": "Build and deploy a video collaboration app in minutes on the web, iOS, and Android",
+			"options": [
+				{
+					"language": "Swift",
+					"repo_link": "https://github.com/twilio/twilio-video-app-ios"
+				},
+				{
+					"language": "Android",
+					"repo_link": "https://github.com/twilio/twilio-video-app-android"
+				},
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio/twilio-video-app-react"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/video-collaboration",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"customer-auth-plugin": {
+			"name": "Customer Authentication Flex Plugin",
+			"products": ["Flex", "Verify"],
+			"description": "Use this Flex plugin so agents can authenticate customers with SMS one-time passcodes.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/plugin-verify"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/verify-flex-plugin",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"agent-notes-plugin": {
+			"name": "Agent Notes Flex Plugin",
+			"products": ["Flex"],
+			"description": "Use this Flex plugin to enable your agents to take notes when they are on-call or chatting with a customer.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/plugin-agent-notes"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/agent-notes-flex-plugin",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"voice-ivr": {
+			"name": "Basic IVR",
+			"products": ["Voice", "SMS"],
+			"description": "An app that sets up a basic IVR (phone tree) that gives callers information based on the options they choose.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/voice-ivr"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/basic-ivr",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/basic-ivr?language=functions",
+			"is_community": false
+		},
+		"code-exchange-email": {
+			"name": "CodeExchange Email Samples",
+			"products": ["sendgrid"],
+			"description": "Get started with code samples for common Twilio SendGrid Email use cases.",
+			"options": [],
+			"codeexchange_link": "https://www.twilio.com/code-exchange?q=&f=email",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"code-exchange-msg": {
+			"name": "CodeExchange Messaging Samples",
+			"products": ["SMS", "WhatsApp"],
+			"description": "Get started with code samples for common Programmable Messaging use cases.",
+			"options": [],
+			"codeexchange_link": "https://www.twilio.com/code-exchange?q=&f=sms&f=whatsapp",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"omnichannel-notifications": {
+			"name": "Omnichannel Notifications",
+			"products": ["sendgrid", "SMS"],
+			"description": "Enable users to select notification preference (Email or SMS), and notify them accordingly",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/sample-preference-center"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/omnichannel-notifications",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"email-verification": {
+			"name": "One-click Email Verification with \"Magic Links\"",
+			"products": ["sendgrid", "Verify"],
+			"description": "This app will show you an example of how to build one-click email verification using the\u00a0Twilio Verify API and Twilio SendGrid API.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": null,
+					"functions_link": "https://github.com/twilio-labs/function-templates/tree/main/magic-links"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/one-click-email-verification-magic-links",
+			"quick_deploy_link": "https://www.twilio.com/code-exchange/one-click-email-verification-magic-links?language=functions",
+			"is_community": false
+		},
+		"anonymous-conversations": {
+			"name": "Anonymous SMS Conversation",
+			"products": ["SMS"],
+			"description": "Enable parties to send text messages to each other anonymously without sharing their personal number.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/sample-conversations-masked-numbers"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/anonymous-sms-conversation",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"twiliomatic": {
+			"name": "Twiliomatic",
+			"products": ["all"],
+			"description": "We also hid Twiliomatic in a secret 'cheatmode' inside the SIGNAL Developer Mode. Can you find it?",
+			"options": [],
+			"codeexchange_link": "https://github.com/TwilioDevEd/twiliomatic",
+			"quick_deploy_link": null,
+			"is_community": false
+		},
+		"pay-over-phone": {
+			"name": "Process Payments via Phone Call",
+			"products": ["Voice"],
+			"description": "Enable a caller to make a secure purchase during a voice call even when in public, using phone-based entry to input sensitive data.",
+			"options": [
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/twilio-labs/sample-pay-service"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/secure-payments-over-phone",
+			"quick_deploy_link": false,
+			"is_community": false
+		},
+		"sms-phone-verification": {
+			"name": "SMS Phone Verification",
+			"products": ["Verify"],
+			"description": "Basic SMS phone verification (2FA) example using Twilio Verify",
+			"options": [
+				{
+					"language": "Ruby",
+					"repo_link": "https://github.com/TwilioDevEd/verify-v2-quickstart-rails#next"
+				},
+				{
+					"language": "Python",
+					"repo_link": "https://github.com/TwilioDevEd/verify-v2-quickstart-python#next"
+				},
+				{
+					"language": ".NET",
+					"repo_link": "https://github.com/TwilioDevEd/verify-v2-quickstart-csharp#next"
+				},
+				{
+					"language": "JavaScript",
+					"repo_link": "https://github.com/TwilioDevEd/verify-v2-quickstart-node#next"
+				},
+				{
+					"language": "PHP",
+					"repo_link": "https://github.com/TwilioDevEd/verify-v2-quickstart-php#next"
+				},
+				{
+					"language": "Java",
+					"repo_link": "https://github.com/TwilioDevEd/verify-v2-quickstart-java#next"
+				}
+			],
+			"codeexchange_link": "https://www.twilio.com/code-exchange/sms-phone-verification",
+			"quick_deploy_link": null,
+			"is_community": false
+		}
+	}
+}

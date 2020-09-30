@@ -1,0 +1,11 @@
+{
+  "//": "startTime and endTime are in milliseconds",
+  "closedCaptions": "https://signal-developer-mode-6892.twil.io/closedCaptioningExample.vtt",
+  "// keynoteSessionIds": "prod NAMER, APJ, EMEA",
+  "keynoteSessionIds": [
+    "PUEsvPIPEeqRxMovdY1Fdg",
+    "QPuSvvfoEeqfsqIIDf4bqg",
+    "siyx8vfoEeqKK56BeguT9A"
+  ],
+  "resources": []
+}
