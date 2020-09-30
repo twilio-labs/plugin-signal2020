@@ -17,7 +17,6 @@ const { computeDiagnostics } = require('../utils/diagnostics');
 let shouldCleanScreen = false;
 
 class Signal2020Command extends TwilioClientCommand {
-
   constructor(argv, config, secureStorage) {
     super(argv, config, secureStorage);
 
@@ -159,7 +158,7 @@ class Signal2020Command extends TwilioClientCommand {
 }
 
 const baseFlags = { ...TwilioClientCommand.flags };
-baseFlags.profile.description = 'Shorthand identifier for your Twilio profile.';
+baseFlags.profile.description = 'Shorthand identifier for your twilio-cli profile; Run \'$ twilio profiles:list\' for more info.';
 
 Signal2020Command.flags = Object.assign(
   // ChatTokenGeneratorFlags,
