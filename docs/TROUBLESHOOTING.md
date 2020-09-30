@@ -1,6 +1,7 @@
 # Troubleshooting
 
 - [Troubleshooting](#troubleshooting)
+  - [Updating to the latest version](#updating-to-the-latest-version)
   - [Common Issues](#common-issues)
     - [Can't login](#cant-login)
     - [No download & setup option](#no-download--setup-option)
@@ -13,6 +14,15 @@
   - [Reporting an Issue](#reporting-an-issue)
     - [Support channels](#support-channels)
     - [Providing information when requesting help](#providing-information-when-requesting-help)
+
+## Updating to the latest version
+
+We will try to release fixes for issues as we discover them. Try updating to the latest version if you encounter any issues:
+
+```bash
+twilio plugins:uninstall @twilio-labs/plugin-signal2020
+twilio plugins:install @twilio-labs/plugin-signal2020@latest
+```
 
 ## Common Issues
 
