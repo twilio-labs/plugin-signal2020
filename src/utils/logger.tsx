@@ -25,7 +25,11 @@ logger = pino(
 );
 
 setInterval(function () {
-  logger.flush();
+  try {
+    logger.flush();
+  } catch (err) {
+    // logger failed to flush. that's okay
+  }
 }, 10000).unref();
 
 export function cliLogLevelToPinoLogLevel(logLevel: number): string {
@@ -46,8 +50,12 @@ export function cliLogLevelToPinoLogLevel(logLevel: number): string {
 export const pinoFinalHandler = pino.final(
   logger,
   (err, finalLogger, evt, noExit = false) => {
-    finalLogger.info(`${evt} caught`);
-    if (err) finalLogger.error(err, 'error caused exit');
+    try {
+      finalLogger.info(`${evt} caught`);
+      if (err) finalLogger.error(err, 'error caused exit');
+    } catch (err) {
+      // carry on we got to leave
+    }
     if (!noExit) process.exit(err ? 1 : 0);
   }
 );
