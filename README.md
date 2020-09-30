@@ -66,7 +66,37 @@ SIGNAL Developer Mode relies on your keyboard for navigation. Check out the [ann
 
 # Commands
 <!-- commands -->
+* [`twilio signal2020`](#twilio-signal2020)
 
+## `twilio signal2020`
+
+```
+USAGE
+  $ twilio signal2020
+
+OPTIONS
+  -d, --diagnostics                Using this flag will output diagnostics information that will be useful when
+                                   debugging issues.
+
+  -l=(debug|info|warn|error|none)  [default: info] Level of logging messages.
+
+  -o=(columns|json|tsv)            [default: columns] Format of command output.
+
+  -p, --profile=profile            Shorthand identifier for your profile.
+
+  --email=email                    The email you use to log into signal.twilio.com/login
+
+  --feedback                       Learn how you can give feedback on SIGNAL Developer Mode.
+
+  --password=password              The password you use to log into signal.twilio.com/login
+
+  --tail
+
+ALIASES
+  $ twilio signal
+```
+
+_See code: [dist/commands/signal2020.ts](https://github.com/twilio-labs/plugin-signal2020/blob/v1.0.0/dist/commands/signal2020.ts)_
 <!-- commandsstop -->
 # Contributing
 
