@@ -56,12 +56,6 @@ export function ModeSwitcher() {
     ) {
       const newCurrentCode = `${currentCodeInput}${currentKey}`;
       if (SEQUENCE === newCurrentCode) {
-        // I see you are exploring the  code
-        // maybe to find the secret cheat mode?
-        // Regardless, we love your spirit and want to reward it!
-        // If you are the first person to email BuilderSpirit and your address
-        // to dkundel+cli@twilio.com, we will send you some swag.
-        // We can't wait to see what you build!
         dispatch({ type: ModeEvents.showCheatMode });
         return;
       } else {
