@@ -14,11 +14,16 @@ It's built on top of the [Twilio CLI](https://twil.io/cli) and provides function
 ### __Table of Contents__
 
 <!-- toc -->
-* [Requirements](#requirements)
-* [Installation](#installation)
-* [Commands](#commands)
-* [Contributing](#contributing)
-* [License](#license)
+- [Requirements](#requirements)
+  - [Setup](#setup)
+  - [Supported Terminals](#supported-terminals)
+- [Installation](#installation)
+  - [Usage](#usage)
+- [Commands](#commands)
+  - [`twilio signal2020`](#twilio-signal2020)
+- [Contributing](#contributing)
+  - [Code of Conduct](#code-of-conduct)
+- [License](#license)
 <!-- tocstop -->
 # Requirements
 
@@ -50,7 +55,7 @@ USAGE
 
 You'll be prompted for your SIGNAL credentials that you also use to [log into the SIGNAL 2020 website](https://signal.twilio.com/login).
 
-> If you don't want to enter your email and password every time, you can also [store them as environment variables](https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html) and pass them via the `--email` and `--password` flags to `twilio signal2020`..
+> If you don't want to enter your email and password every time, you can also [store them as environment variables](https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html) and pass them via the `--email` flags to `twilio signal2020`..
 
 ## Usage
 
@@ -86,8 +91,6 @@ OPTIONS
   --email=email                    The email you use to log into signal.twilio.com/login
 
   --feedback                       Learn how you can give feedback on SIGNAL Developer Mode.
-
-  --password=password              The password you use to log into signal.twilio.com/login
 
   --tail
 

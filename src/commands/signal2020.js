@@ -122,7 +122,7 @@ class Signal2020Command extends TwilioClientCommand {
       }
     } catch (err) {
       this.logger.error(
-        'Failed to capture email & password. Try using --email and --password instead.'
+        'Failed to capture email & password. Try using --email instead.'
       );
       this.exit(1);
       return;
@@ -158,7 +158,8 @@ class Signal2020Command extends TwilioClientCommand {
 }
 
 const baseFlags = { ...TwilioClientCommand.flags };
-baseFlags.profile.description = 'Shorthand identifier for your twilio-cli profile; run \'$ twilio profiles:list\' for more info.';
+baseFlags.profile.description =
+  "Shorthand identifier for your twilio-cli profile; run '$ twilio profiles:list' for more info.";
 
 Signal2020Command.flags = Object.assign(
   // ChatTokenGeneratorFlags,
@@ -172,9 +173,6 @@ Signal2020Command.flags = Object.assign(
     }),
     email: flags.string({
       description: 'The email you use to log into signal.twilio.com/login.',
-    }),
-    password: flags.string({
-      description: 'The password you use to log into signal.twilio.com/login.',
     }),
     feedback: flags.boolean({
       default: false,
