@@ -14,16 +14,11 @@ It's built on top of the [Twilio CLI](https://twil.io/cli) and provides function
 ### __Table of Contents__
 
 <!-- toc -->
-- [Requirements](#requirements)
-  - [Setup](#setup)
-  - [Supported Terminals](#supported-terminals)
-- [Installation](#installation)
-  - [Usage](#usage)
-- [Commands](#commands)
-  - [`twilio signal2020`](#twilio-signal2020)
-- [Contributing](#contributing)
-  - [Code of Conduct](#code-of-conduct)
-- [License](#license)
+* [Requirements](#requirements)
+* [Installation](#installation)
+* [Commands](#commands)
+* [Contributing](#contributing)
+* [License](#license)
 <!-- tocstop -->
 # Requirements
 

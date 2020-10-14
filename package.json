@@ -1,7 +1,7 @@
 {
   "name": "@twilio-labs/plugin-signal2020",
   "description": "Developer Mode for SIGNAL 2020",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Twilio @twilio-labs",
   "bugs": "https://github.com/twilio-labs/plugin-signal2020/issues",
   "publishConfig": {
