@@ -21,28 +21,10 @@ function getTerminalName(shell: string, isWindows: boolean): string {
 }
 
 function getShell(isWindows: boolean): string {
-  const parentId = process.ppid;
   if (!isWindows) {
-    try {
-      const { stdout } = execa.sync(`ps ${parentId} -o command`, {
-        shell: true,
-      });
-      return stdout.split('\n')[1];
-    } catch (err) {
-      return isWsl ? 'wsl' : 'unknown';
-    }
+    return isWsl ? 'wsl' : process.env.SHELL ? process.env.SHELL : 'unknown';
   } else {
-    try {
-      const { stdout } = execa.commandSync(
-        `powershell.exe (gps -id ${parentId}).Name`,
-        {
-          shell: true,
-        }
-      );
-      return stdout;
-    } catch (err) {
-      return 'unknown';
-    }
+    return 'windows';
   }
 }
 
