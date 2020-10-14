@@ -47,5 +47,5 @@ export function getUserAgent() {
     return `plugin-signal2020`;
   }
 
-  return `plugin-signal2020/${_diagnostics.pluginVersion} ${_diagnostics.twilioCliVersion} ${_diagnostics.terminal}/${_diagnostics.shell}`;
+  return `plugin-signal2020/${_diagnostics.pluginVersion} ${_diagnostics.twilioCliVersion}`;
 }
