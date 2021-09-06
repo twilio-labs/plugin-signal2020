@@ -13,7 +13,7 @@
     "@oclif/config": "^1.13.3",
     "@oclif/plugin-help": "^2.2.3",
     "@twilio-labs/serverless-api": "^4.0.1",
-    "@twilio/cli-core": "^5.9.3",
+    "@twilio/cli-core": "^5.15.1",
     "@types/degit": "^2.8.0",
     "@types/mkdirp": "^1.0.1",
     "@types/pino": "^6.3.2",
