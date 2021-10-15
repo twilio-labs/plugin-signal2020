@@ -11,7 +11,7 @@
     "got": "^11.7.0"
   },
   "devDependencies": {
-    "twilio-run": "^2.6.0"
+    "twilio-run": "^3.3.0"
   },
   "engines": {
     "node": "10"
